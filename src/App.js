@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+import { ProductList } from './components/products/ProductList';
 
 function App() {
   return (
-    <div className="root">
-      <div className="container">
-        
+    <div className="principal_container">
+      <div className="middle_container">
+         <ProductList />
       </div>
     </div>
   );
